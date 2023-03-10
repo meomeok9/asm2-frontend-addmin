@@ -1,0 +1,6 @@
+.hotels_container {
+    display: flex;
+  margin-top: 1px;
+  justify-content: center;
+  align-items: center;
+}

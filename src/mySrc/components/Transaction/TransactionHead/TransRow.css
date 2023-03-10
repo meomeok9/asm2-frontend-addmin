@@ -1,0 +1,65 @@
+.headCard2_container {
+  display: flex;
+  margin-left: 1px;
+  padding: 0.1rem 0.2rem;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.headCard2_container p{
+  margin-top: 0;
+}
+
+.headcard2 {
+  background-color: aqua;
+}
+.headcard2 p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.detailcard {
+  background-color: darkgray;
+  overflow-wrap: anywhere;
+}
+.booked {
+  background-color: rgb(241, 158, 158);
+  color: green;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.5rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+}
+.booked p {
+  margin: 0;
+}
+.checkin {
+  background-color: green;
+  color: chocolate;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.5rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+}
+.checkin p {
+  margin: 0;
+}
+.checkout {
+  background-color: grey;
+  color: aqua;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.5rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+}
+.checkout p {
+  margin: 0;
+}

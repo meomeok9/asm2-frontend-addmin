@@ -1,0 +1,7 @@
+.roomshead_container {
+  display: flex;
+  width: 100%;
+  padding-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,37 @@
+.formaddroom_container {
+  background-color: rgb(33, 35, 61);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.form_add_room input {
+  font-size: 18px;
+  border-radius: 5px;
+  border: 3px solid aqua;
+  padding: 1rem;
+  width: 90%;
+}
+.form_add_room input:focus {
+  outline: none;
+}
+.form_add_room {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form_add_room div {
+  width: 50%;
+}
+.form_add_room button {
+  margin-top: 2rem;
+  padding: 0.5rem 3rem;
+  color: chocolate;
+  font-weight: bold;
+  cursor: pointer;
+}
+.input_room_right,
+.input_room_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

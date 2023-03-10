@@ -1,0 +1,46 @@
+.addform_container {
+  background-color: rgb(33, 35, 61);
+  width: 100%;
+  color: white;
+}
+.addhotel_input_ctn {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.addhotel_input_ctn div {
+  width: 50%;
+}
+.addhotel_input_ctn input {
+  padding: 0.5rem 1rem;
+  width: 90%;
+  border: 2px solid aqua;
+  border-radius: 5px;
+}
+.addhotel_input_ctn input:focus {
+  outline: none;
+}
+.addhotel_input_ctn select {
+  padding: 0.5rem 1rem;
+}
+.addrooms_check {
+  padding: 0 1rem;
+  display: flex;
+  margin: 0;
+}
+.rooms_check_container {
+  display: flex;
+  border: 1px dotted white;
+  flex-wrap: wrap;
+  margin: 1rem 1rem;
+}
+.addform_container button {
+  padding: 0.5rem 3rem;
+  color: chocolate;
+  font-weight: bold;
+}
+.add_rate{
+  display: flex;
+}

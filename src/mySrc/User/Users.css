@@ -1,0 +1,8 @@
+.mainUser {
+  display: flex;
+  background-color: rgb(33, 35, 61);
+  
+}
+.mainUser h1{
+    color: white;
+}

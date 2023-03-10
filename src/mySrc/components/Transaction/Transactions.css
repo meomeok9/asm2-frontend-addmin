@@ -1,0 +1,32 @@
+.transs_container {
+  margin-right: 0.5rem;
+  background-color: rgb(47, 105, 0);
+  padding: 0 1rem 1rem 0;
+}
+.transs_container h1 {
+  color: white;
+  text-align: center;
+}
+.trans_page {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.trans_page p {
+  height: 1rem;
+  margin: 0 1rem;
+  color: white;
+  font-weight: bold;
+  user-select: none;
+}
+
+.trans_page span {
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.trans_page span:hover {
+  transform: scale(1.3);
+}

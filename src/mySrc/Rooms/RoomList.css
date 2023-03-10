@@ -1,0 +1,20 @@
+.roomsListHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+}
+.roomsListHead button {
+  padding: 0.5rem 1rem;
+  border: 2px solid green;
+  border-radius: 5px;
+  color: green;
+  cursor: pointer;
+}
+.roomsListHead h2 {
+  color: white;
+}
+.roomListMain {
+  background-color: rgb(33, 35, 61);
+  width: 85%;
+}

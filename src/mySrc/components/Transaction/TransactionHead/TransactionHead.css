@@ -1,0 +1,11 @@
+.head_container2{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.transcheckbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
